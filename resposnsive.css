@@ -1,0 +1,21 @@
+@media(width > 900px){
+    .kaxa{
+        width: 540px;
+        height: 332px;
+    }
+    .ad{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .line1{
+    display: none;
+    }
+    .line2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -200px;
+        z-index: 10;
+    }
+}
